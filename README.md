@@ -1,2 +1,35 @@
-# test-cmdd8ichb0-3b159f7a-1753110155350
-Temporary repository for test cmdd8ichb0002unjijeus3lgi by user 3b159f7a-2ed9-40ac-85f1-4e013cbbcdf4
+# Satellite Image Dashboard
+
+A simple Vue.js dashboard for displaying satellite images and metadata.
+
+## Setup
+
+1.  **Frontend:**
+
+    ```bash
+    cd frontend
+    npm install
+    npm run serve
+    ```
+
+2.  **Backend:**
+
+    ```bash
+    cd backend
+    npm install
+    npm start
+    ```
+
+## Running Tests
+
+**Frontend:**
+```bash
+cd frontend
+npm run test:unit
+```
+
+**Backend:**
+```bash
+cd backend
+npm run test
+```
